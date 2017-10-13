@@ -1,0 +1,69 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Dept : "
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/curentDept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Null "
+        android:textSize="20dp"
+        android:textColor="@color/colorDept"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select New Dept : "
+        android:textColor="@color/white"
+        />
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_spinner"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#000000">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Cancel"
+            android:textSize="20dp"
+            android:id="@+id/buttonCancel"
+            android:layout_gravity="right"
+            android:background="@color/colorDept"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="Change"
+            android:textSize="20dp"
+            android:id="@+id/buttonChangeDept"
+            android:layout_gravity="right"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorAccent"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+        />
+    </LinearLayout >
+</LinearLayout >

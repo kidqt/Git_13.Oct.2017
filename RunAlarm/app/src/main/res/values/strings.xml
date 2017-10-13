@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RunAlarm</string>
+    <string name="title_activity_login">Login</string>
+    <string-array name="spiner">
+        <item>Select Dept</item>
+        <item>All Dept</item>
+        <item>IT</item>
+    </string-array>
+    <string name="title_activity_change_dept">Change Department</string>
+</resources>

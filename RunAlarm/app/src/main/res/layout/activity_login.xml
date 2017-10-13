@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@mipmap/vintrig"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/user"
+        android:hint = "Enter Name"
+        android:focusable = "true"
+        android:textColorHighlight = "#ff7eff15"
+        android:textColorHint = "#ffff25e6"
+        android:maxLines="1"
+        android:layout_below = "@+id/imageView"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/pass"
+        android:maxLines="1"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:textColorHint="#ffff299f"
+        android:hint="Password" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="login"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/button"
+        android:layout_gravity="right"
+        android:background="@color/colorAccent"
+        android:layout_marginRight="10dp"
+        />
+</LinearLayout >
